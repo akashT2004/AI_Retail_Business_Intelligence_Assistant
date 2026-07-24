@@ -10,6 +10,30 @@
 
 ---
 
+## 📷 Application Screenshots & Visual Tour
+
+### 🏠 1. Executive Command Center
+*Real-time KPI cards, inventory stock reorder warnings, and monthly performance trends.*
+![Executive Command Center](outputs/01_executive_command_center.png)
+
+### 🤖 2. AI Intelligence Copilot (SQL Generation)
+*Natural language prompt interface converting business questions into optimized SQL queries.*
+![AI Copilot SQL Generation](outputs/02_ai_copilot_sql_generation.png)
+
+### 📊 3. Interactive Data Visualizations & Analytics
+*Query execution timer, tabular data results, interactive Plotly chart switcher, and CSV exporter.*
+![AI Copilot Results & Visualization](outputs/03_ai_copilot_results_visualization.png)
+
+### 💡 4. Executive AI Insight & Action Plan
+*Automated AI synthesis of key findings, strategic business insights, and actionable recommendations.*
+![Executive AI Insight & Action Plan](outputs/04_ai_insight_action_plan.png)
+
+### 📈 5. Interactive Analytics Hub
+*Multi-tab analytics suite featuring global region, category, and segment interactive filters.*
+![Interactive Analytics Hub](outputs/05_interactive_analytics_hub.png)
+
+---
+
 ## 🌟 Key Features
 
 ### 1. 🏠 Executive Command Center (`home.py`)
@@ -171,4 +195,4 @@ The app will open automatically in your default browser at `http://localhost:850
 
 ## 📜 License & Credits
 
-Developed with using **Python, Streamlit, Plotly, Google Gemini AI, MySQL, and Power BI**.
+Developed using **Python, Streamlit, Plotly, Google Gemini AI, MySQL, and Power BI**.
