@@ -1,4 +1,4 @@
-# ⚡ RetailIQ AI — AI-Powered Retail Business Intelligence Assistant
+#  RetailIQ AI — AI-Powered Retail Business Intelligence Assistant
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.30%2B-FF4B4B.svg)](https://streamlit.io/)
@@ -10,39 +10,39 @@
 
 ---
 
-## 📷 Application Screenshots & Visual Tour
+##  Application Screenshots & Visual Tour
 
-### 🏠 1. Executive Command Center
+###  1. Executive Command Center
 *Real-time KPI cards, inventory stock reorder warnings, and monthly performance trends.*
 ![Executive Command Center](outputs/01_executive_command_center.png)
 
-### 🤖 2. AI Intelligence Copilot (SQL Generation)
+###  2. AI Intelligence Copilot (SQL Generation)
 *Natural language prompt interface converting business questions into optimized SQL queries.*
 ![AI Copilot SQL Generation](outputs/02_ai_copilot_sql_generation.png)
 
-### 📊 3. Interactive Data Visualizations & Analytics
+###  3. Interactive Data Visualizations & Analytics
 *Query execution timer, tabular data results, interactive Plotly chart switcher, and CSV exporter.*
 ![AI Copilot Results & Visualization](outputs/03_ai_copilot_results_visualization.png)
 
-### 💡 4. Executive AI Insight & Action Plan
+###  4. Executive AI Insight & Action Plan
 *Automated AI synthesis of key findings, strategic business insights, and actionable recommendations.*
 ![Executive AI Insight & Action Plan](outputs/04_ai_insight_action_plan.png)
 
-### 📈 5. Interactive Analytics Hub
+###  5. Interactive Analytics Hub
 *Multi-tab analytics suite featuring global region, category, and segment interactive filters.*
 ![Interactive Analytics Hub](outputs/05_interactive_analytics_hub.png)
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
-### 1. 🏠 Executive Command Center (`home.py`)
+### 1.  Executive Command Center (`home.py`)
 - **Real-Time KPI Cards**: Live tracking of Gross Sales, Total Profit, Profit Margin %, Total Orders, Average Order Value (AOV), and Active Customer Base.
 - **Revenue & Profit Growth Trend**: Interactive Plotly line/area chart showing monthly performance trends with hover tooltips.
 - **Inventory Warning Alert Banner**: Automatic monitoring flagging SKUs where current stock falls below reorder thresholds (`current_stock < reorder_level`).
 - **Quick Action Launchpad**: Instant navigation to AI Copilot and Power BI embedded reports.
 
-### 2. 🤖 AI Intelligence Copilot (`ai_assistant.py`)
+### 2.  AI Intelligence Copilot (`ai_assistant.py`)
 - **Natural Language to SQL**: Powered by **Google Gemini 2.5 Flash**, converting plain-English questions into optimized SQL queries.
 - **Multi-Chart Type Switcher**: Dynamically toggle query outputs between **Bar Chart**, **Line Chart**, **Donut/Pie Chart**, **Scatter Plot**, or **Data Table**.
 - **Formatted SQL Inspector**: High-contrast, large-font SQL code block with query execution timer metrics (`⏱ Execution Time`).
@@ -50,25 +50,25 @@
 - **CSV Data Export**: One-click download for all executed query result sets.
 - **Query History Drawer**: Session history preserving past questions, SQL queries, and insights.
 
-### 3. 📈 Interactive Analytics Hub (`analytics.py`)
+### 3.  Interactive Analytics Hub (`analytics.py`)
 - **Global Interactive Filter Bar**: Filter dataset dynamically by **Region**, **Category**, and **Customer Segment**.
 - **4 Deep BI Suites**:
-  1. 💰 **Sales & Financials**: Regional sales & profit bars, Category revenue donut charts, State-by-state financial performance matrix.
-  2. 🏷️ **Product & Category Intelligence**: Top 10 most profitable products vs bottom loss-making products, Sub-category performance breakdown.
-  3. 🚚 **Customer & Operations**: Customer segment revenue contribution, Shipping mode analysis, Payment preference distribution.
-  4. 📦 **Inventory & Warehouse Health**: Low stock reorder priority monitor, Warehouse stock distribution, Lead time analysis.
+  1.  **Sales & Financials**: Regional sales & profit bars, Category revenue donut charts, State-by-state financial performance matrix.
+  2.  **Product & Category Intelligence**: Top 10 most profitable products vs bottom loss-making products, Sub-category performance breakdown.
+  3.  **Customer & Operations**: Customer segment revenue contribution, Shipping mode analysis, Payment preference distribution.
+  4.  **Inventory & Warehouse Health**: Low stock reorder priority monitor, Warehouse stock distribution, Lead time analysis.
 
-### 4. ⚡ Resilient Dual-Engine Database Layer (`db_connection.py`)
+### 4.  Resilient Dual-Engine Database Layer (`db_connection.py`)
 - **MySQL Primary Connection**: Connects to local MySQL database (`ai_retail_bi`).
 - **Zero-Downtime SQLite/CSV Fallback**: Automatically loads `data/SuperStore_Sales_Enhanced.csv`, `customer_master.csv`, and `product_master.csv` into an in-memory SQLite database if MySQL server is unreachable, ensuring **100% uninterrupted app operation**.
 - **Live System Status Pill**: Visual health badge displaying active database mode in the sidebar (`🟢 MySQL Engine Active` or `⚡ SQLite / CSV Fallback Engine`).
 
-### 5. 📊 Power BI Cloud Integration (`dashboard.py`)
+### 5.  Power BI Cloud Integration (`dashboard.py`)
 - Embedded launchpad and report summary for published Power BI Cloud Service dashboards.
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Component | Technology / Library |
 | :--- | :--- |
@@ -81,7 +81,7 @@
 
 ---
 
-## 📁 Project Architecture
+##  Project Architecture
 
 ```text
 AI_Retail_Business_Intelligence_Assistant/
@@ -117,7 +117,7 @@ AI_Retail_Business_Intelligence_Assistant/
 
 ---
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### 1. Prerequisites
 - **Python 3.10+** installed on your system.
@@ -183,7 +183,7 @@ The app will open automatically in your default browser at `http://localhost:850
 
 ---
 
-## 💡 Example AI Questions to Try
+##  Example AI Questions to Try
 
 - `"Show top 5 selling products by total profit"`
 - `"What is the monthly sales and profit trend?"`
@@ -191,8 +191,3 @@ The app will open automatically in your default browser at `http://localhost:850
 - `"Break down sales by customer segment and region"`
 - `"Show total sales by payment mode"`
 
----
-
-## 📜 License & Credits
-
-Developed using **Python, Streamlit, Plotly, Google Gemini AI, MySQL, and Power BI**.
